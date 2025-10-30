@@ -6,10 +6,10 @@ public class Person {
     private int umur;
 
     //Default(package-private)-bisa diakses dalam package yang sama
-    String alamat;
+    public String alamat;
 
     //protected - bisa diakses dalam package dan subclass
-    protected String telepon;
+    public String telepon;
 
     //public - bisa diakses dari mana saja
     public String email;
